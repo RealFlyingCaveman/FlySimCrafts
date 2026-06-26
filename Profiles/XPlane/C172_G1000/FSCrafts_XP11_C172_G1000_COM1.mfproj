@@ -30,9 +30,71 @@
           },
           "DeviceType": "Encoder",
           "DeviceName": "Outer Encoder",
-          "GUID": "e48069e3-d05a-4878-858e-64b31ba11ce6",
+          "GUID": "ff4a23cd-ea7e-4ddd-ad1b-2abbaf8e701e",
           "Active": true,
-          "Name": "New Input Config",
+          "Name": "Outer Encoder",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "MobiFlight RaspiPico",
+            "Serial": "SN-E6636C046343AD2A"
+          }
+        },
+        {
+          "encoder": {
+            "onLeft": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "sim/radios/stby_com1_fine_down",
+              "Expression": ""
+            },
+            "onLeftFast": null,
+            "onRight": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "sim/radios/stby_com1_fine_up",
+              "Expression": ""
+            },
+            "onRightFast": null
+          },
+          "Device": {
+            "Type": "Encoder",
+            "Name": "Inner Encoder"
+          },
+          "DeviceType": "Encoder",
+          "DeviceName": "Inner Encoder",
+          "GUID": "f80a5bc8-03d1-416f-b692-32974afa4eb7",
+          "Active": true,
+          "Name": "Inner Encoder",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "MobiFlight RaspiPico",
+            "Serial": "SN-E6636C046343AD2A"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "sim/radios/com1_standy_flip",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Push Button"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Push Button",
+          "GUID": "b6e7d1c1-fbb9-4bcc-9319-7c04f8d2b679",
+          "Active": true,
+          "Name": "Push Button",
           "Type": "InputConfigItem",
           "Controller": {
             "Name": "MobiFlight RaspiPico",
