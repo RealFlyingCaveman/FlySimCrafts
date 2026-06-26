@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight RaspiPico</ModuleType>
+  <ModuleName>MobiFlight RaspiPico</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Encoder Name="Outer Encoder" PinLeft="2" PinRight="3" EncoderType="2" />
+  <Encoder Name="Inner Encoder" PinLeft="4" PinRight="5" EncoderType="2" />
+  <Button Name="Push Button" Pin="6" />
+</Config>

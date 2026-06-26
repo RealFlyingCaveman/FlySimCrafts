@@ -1,0 +1,52 @@
+{
+  "Name": "FSCrafts_XP11_C172_G1000_COM1",
+  "ConfigFiles": [
+    {
+      "Label": "New file",
+      "FileName": null,
+      "ReferenceOnly": false,
+      "EmbedContent": true,
+      "ConfigItems": [
+        {
+          "encoder": {
+            "onLeft": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "sim/radios/stby_com1_coarse_down",
+              "Expression": ""
+            },
+            "onLeftFast": null,
+            "onRight": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "sim/radios/stby_com1_coarse_up",
+              "Expression": ""
+            },
+            "onRightFast": null
+          },
+          "Device": {
+            "Type": "Encoder",
+            "Name": "Outer Encoder"
+          },
+          "DeviceType": "Encoder",
+          "DeviceName": "Outer Encoder",
+          "GUID": "e48069e3-d05a-4878-858e-64b31ba11ce6",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "MobiFlight RaspiPico",
+            "Serial": "SN-E6636C046343AD2A"
+          }
+        }
+      ]
+    }
+  ],
+  "Sim": "xplane",
+  "Aircraft": [],
+  "Features": {
+    "FSUIPC": false,
+    "ProSim": false
+  },
+  "_version": "0.9"
+}
